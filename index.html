@@ -1,0 +1,547 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="css/reset.css">
+	<link rel="stylesheet" type="text/css" href="css/magnific-popup.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+	<title>Document</title>
+</head>
+<body>
+
+	<div class="forms__popup-hidden">
+	<div class="forms__popup" id="authorization">
+		<img class="cross__popup forms__popup-cross"  src="img/popup-cross.svg" alt="cross-popup">
+		<a class="logo__forms" href="#">LOGO</a>
+		<ul class="forms__nuv">
+			<li class="forms__nuv-item">Авторизоваться</li>
+			<li class="forms__nuv-item">Регистрация</li>
+		</ul>
+		<div class="forma__wrapper">
+		<forma class="forma__authorization forma__tab">
+			<div class="authorization__inner">
+
+				<div class=" input__forms-wrap">
+					<input class=" forma__input input__forms" type="text" placeholder="Введите логин/Номер телефона">
+				</div>
+
+				<div class=" input__forms-wrap">	
+					<input class="forma__input input__forms" type="text" placeholder="Введите пароль">
+					<a href="#" class="input__btn input__btn--passord input__forms-btn"><img class="input__img" src="img/eye.svg"></a>
+				</div>
+
+				<a class="forma__popup-link" href="#">Забыли пароль ?</a>	
+			</div>
+
+			<button class="authorization__btn ">Войти</button>
+		</forma>
+
+		<forma class="forma__registration forma__tab">
+			<div class="forma__registration-inner">
+
+				<div class=" input__forms-wrap">
+					<input class=" forma__input input__forms" type="text" placeholder="Имя пользователя">
+				</div>
+
+				<div class=" input__forms-wrap">
+					<input class=" forma__input input__forms" type="text" placeholder="Номер телефона">
+				</div>
+
+				<div class=" input__forms-wrap">
+					<input class=" forma__input input__forms" type="email" placeholder="Электронная почта ">
+				</div>
+
+				<div class=" input__forms-wrap">	
+					<input class="forma__input input__forms" type="text" placeholder="Придумайте пароль">
+					<a href="#" class="input__btn input__btn--passord input__forms-btn"><img class="input__img" src="img/eye.svg"></a>
+				</div>
+
+				<div class=" input__forms-wrap">	
+					<input class="forma__input input__forms" type="text" placeholder="Повторите пароль">
+					<a href="#" class="input__btn input__btn--passord input__forms-btn"><img class="input__img" src="img/eye.svg"></a>
+				</div>
+
+			</div>
+			<button class="authorization__btn ">Авторизоваться</button>
+		</forma>
+		</div>
+	</div>
+	</div>
+
+
+
+	<div class="wrapper">
+		<header class="header">
+			<div class="header__conteiner">
+				<div class="header__wrapper">
+					<a class="header__logo authorization" href="#authorization" >
+						<img class="logo__img" src="img/logo.svg" alt="logo">
+					</a>
+					<nav class="menu">
+						<ul class="menu__list">
+							<li class="menu__list-item">
+								<a href="#" class="menu__list-link link ">Главная</a>
+							</li>
+							<li class="menu__list-item">
+								<a href="studios.html" class="menu__list-link link ">Студии</a>
+							</li>
+							<li class="menu__list-item">
+								<a href="menedger.html" class="menu__list-link link ">Манеджер</a>
+							</li>
+						</ul> 
+					</nav>
+					<forma class="search__box">
+						<input class="search" type="search" placeholder="Поиск">
+					</forma>
+					<div class="user">
+						<img class="user__img" src="img/user.png" alt="user" >
+						<a class="user__name link" href="user.html">Ольга Рыбкина</a>
+					</div>
+
+
+
+				</div>
+			</div>
+		</header>
+		<main class="main">
+			<div class="conteiner">
+				<div class="main__inner">
+
+					<div class="info">
+						<h2 class="info__title title">Главная/Запросы</h2>
+						<div class="info__items">
+							<div class="info__item">
+								<h2 class="info__descr">Количество запросов </h2>
+								<p class="info__num">14/32</p>
+							</div>
+						
+							<div class="info__item">
+								<h2 class="info__descr">Количество студии </h2>
+								<p class="info__num">32</p>
+							</div>
+						
+							<div class="info__item">
+								<h2 class="info__descr">Количество выполненных обращений </h2>
+								<p class="info__num">32</p>
+							</div>
+						</div>
+					</div>
+
+					<div class="content">
+						<div class="tabs__wrapper">
+								<a class="tabs__item tabs__item--req link" href="#">Запросы</a>
+								<a class="tabs__item tabs__item--chat  link" href="#">Чат</a>
+						</div>
+
+						<div class="tabs__body">
+							<div class="tabs__block">
+								<div class="requests">
+
+									<div class="requests__buttons">
+										<button class="unload" >Выгрузить
+										</button>
+
+										<div class="unload__list" >
+											
+											<a class="unload__list-link" href="#" >
+													пример
+											</a>
+											<a class="unload__list-link" href="#" >
+													пример
+											</a>
+											<a class="unload__list-link" href="#" >
+													пример
+											</a>
+											<a class="unload__list-link" href="#" >
+													пример
+											</a>
+											<a class="unload__list-link" href="#" >
+													пример
+											</a>
+										</div>
+
+										<a class="settings" href="#"><img class="settings__img" src="img/settings.svg" alt="settings"></a>
+									</div>
+
+									<div class="requests__items">
+
+										<div class="requests__item">
+											<div class="requests__photo photo"></div>
+											<div class="requests__text-box requests__fio-text"><p class="fio__text">ФИО</p></div>
+											<div class="requests__text-box"> <p class="plenka ">Пленка Артикул: 0569543Y</p></div>
+											<div class="requests__text-box"><p class="volume">Объем: 20м</p></div>
+											<div class="requests__text-box status">
+												<p class="application-status">Статус заявки:</p>
+												<p class="application-confirmed">Заяка подтверждена</p>
+											</div>
+										</div>
+
+										<div class="requests__item">
+											<div class="requests__photo photo"></div>
+											<div class="requests__text-box requests__fio-text"><p class="fio__text">ФИО</p></div>
+											<div class="requests__text-box"> <p class="plenka ">Пленка Артикул: 0569543Y</p></div>
+											<div class="requests__text-box"><p class="volume">Объем: 20м</p></div>
+											<div class="requests__text-box status">
+												<p class="application-status">Статус заявки:</p>
+												<p class="application-confirmed">Заяка подтверждена</p>
+											</div>
+										</div>
+
+										<div class="requests__item">
+											<div class="requests__photo photo"></div>
+											<div class="requests__text-box requests__fio-text"><p class="fio__text">ФИО</p></div>
+											<div class="requests__text-box"> <p class="plenka ">Пленка Артикул: 0569543Y</p></div>
+											<div class="requests__text-box"><p class="volume">Объем: 20м</p></div>
+											<div class="requests__text-box status">
+												<p class="application-status">Статус заявки:</p>
+												<p class="application-confirmed">Заяка подтверждена</p>
+											</div>
+										</div>
+
+										<div class="requests__item">
+											<div class="requests__photo photo" ></div>
+											<div class="requests__text-box requests__fio-text"><p class="fio__text">ФИО</p></div>
+											<div class="requests__text-box"> <p class="plenka ">Пленка Артикул: 0569543Y</p></div>
+											<div class="requests__text-box"><p class="volume">Объем: 20м</p></div>
+											<div class="requests__text-box status">
+												<p class="application-status">Статус заявки:</p>
+												<p class="application-confirmed">Заяка подтверждена</p>
+											</div>
+										</div>
+
+										<div class="requests__item">
+											<div class="requests__photo photo"></div>
+											<div class="requests__text-box requests__fio-text"><p class="fio__text">ФИО</p></div>
+											<div class="requests__text-box"> <p class="plenka ">Пленка Артикул: 0569543Y</p></div>
+											<div class="requests__text-box"><p class="volume">Объем: 20м</p></div>
+											<div class="requests__text-box status">
+												<p class="application-status">Статус заявки:</p>
+												<p class="application-confirmed">Заяка подтверждена</p>
+											</div>
+										</div>
+
+										<div class="requests__item">
+											<div class="requests__photo photo"></div>
+											<div class="requests__text-box requests__fio-text"><p class="fio__text">ФИО</p></div>
+											<div class="requests__text-box"> <p class="plenka ">Пленка Артикул: 0569543Y</p></div>
+											<div class="requests__text-box"><p class="volume">Объем: 20м</p></div>
+											<div class="requests__text-box status">
+												<p class="application-status">Статус заявки:</p>
+												<p class="application-confirmed">Заяка подтверждена</p>
+											</div>
+										</div>
+
+										<div class="requests__item">
+											<div class="requests__photo photo"></div>
+											<div class="requests__text-box requests__fio-text"><p class="fio__text">ФИО</p></div>
+											<div class="requests__text-box"> <p class="plenka ">Пленка Артикул: 0569543Y</p></div>
+											<div class="requests__text-box"><p class="volume">Объем: 20м</p></div>
+											<div class="requests__text-box status">
+												<p class="application-status">Статус заявки:</p>
+												<p class="application-confirmed">Заяка подтверждена</p>
+											</div>
+										</div>
+
+
+									</div>
+
+								</div>
+							</div>
+							<div class="tabs__block">
+								
+								<div class="chat "  id="chat">
+									<div class="chat__item btn1">
+										<div class="hat__photo-wrap">
+											<div class="hat__photo">
+												<p class="photo__text">o</p>
+											</div>
+										</div>	
+										<div class="hat__content">
+											<div class="chat__content-left">
+												<span class="chat__name">Ольга Рыбкина</span>
+												<p class="hat__text">Да
+													
+												</p>
+											</div>
+
+											<div class="hat__content-right">	
+												<span class="chat__time">12:35</span>
+												<p class="hat__num">2</p>
+												
+											</div>
+										</div>
+											
+									</div>
+
+									<div class="chat__item btn1">
+										<div class="hat__photo-wrap">
+											<div class="hat__photo">
+												<p class="photo__text">o</p>
+											</div>
+										</div>	
+										<div class="hat__content">
+											<div class="chat__content-left">
+												<span class="chat__name">Ольга Рыбкина</span>
+												<p class="hat__text">Да
+													
+												</p>
+											</div>
+
+											<div class="hat__content-right">	
+												<span class="chat__time">12:35</span>
+												<p class="hat__num">2</p>
+												
+											</div>
+										</div>
+											
+									</div>
+
+									<div class="chat__item btn1">
+										<div class="hat__photo-wrap">
+											<div class="hat__photo ">
+												<p class="photo__text">o</p>
+											</div>
+										</div>	
+										<div class="hat__content">
+											<div class="chat__content-left">
+												<span class="chat__name">Ольга Рыбкина</span>
+												<p class="hat__text">Да
+													
+												</p>
+											</div>
+
+											<div class="hat__content-right">	
+												<span class="chat__time">12:35</span>
+												<p class="hat__num">2</p>
+												
+											</div>
+										</div>
+											
+									</div>
+
+									<div class="chat__item btn1">
+										<div class="hat__photo-wrap">
+											<div class="hat__photo">
+												<p class="photo__text">o</p>
+											</div>
+										</div>	
+										<div class="hat__content">
+											<div class="chat__content-left">
+												<span class="chat__name">Ольга Рыбкина</span>
+												<p class="hat__text">Да
+													
+												</p>
+											</div>
+
+											<div class="hat__content-right">	
+												<span class="chat__time">12:35</span>
+												<p class="hat__num">2</p>
+												
+											</div>
+										</div>
+											
+									</div>
+
+									<div class="chat__item btn1">
+										<div class="hat__photo-wrap">
+											<div class="hat__photo">
+												<p class="photo__text">o</p>
+											</div>
+										</div>	
+										<div class="hat__content">
+											<div class="chat__content-left">
+												<span class="chat__name">Ольга Рыбкина</span>
+												<p class="hat__text">Да
+												</p>
+											</div>
+
+											<div class="hat__content-right">	
+												<span class="chat__time">12:35</span>
+												<p class="hat__num">2</p>
+												
+											</div>
+										</div>
+											
+									</div>
+
+							
+
+								</div>
+
+												<div class="chat__hidden" id="chat__hidden">
+										<div class="content__top">
+											<div class="content__top-wrap">
+												<div class="content__top-item" >
+													<a class="content__top-link btn2" href="#" >Назад</a>
+												</div>
+												<div class="content__top-item">
+													<p class="content__top-text">Ольга Рыбкина</p>
+													<p class="content__top-descr">Онлайн</p>
+												</div>
+												<div class="content__top-item">
+													<div class="top_item-inner">
+														<a class="content__top-search" href="#" >
+															<img class="top-search-img" src="img/search.png" alt="top-search">
+														</a>
+													
+														<div class="content__top-photo">
+															<p class="photo__text">o</p>
+														</div>
+													</div>
+
+												</div>
+											</div>
+										</div>
+										<div class="content__bottom">
+											<div class="messages__wrap">
+												<div class="mess__product incoming__mess">
+													<div class="mess__product-inner">
+														<div class="product__box">
+															<img class="product__box-img" src="img/product.png" alt="product">
+															<a class="popup-form product__button button" href="#popup-block">Посмотреть</a>
+															
+														</div>
+														
+													</div>
+
+													<p class="product__name">Пленка <span class="articles">Артикул</span></p>
+
+													<span class="mess__time">11:54</span>
+												</div>
+
+												<div class="incoming__mess message">
+													<p class="mess__text">Lorem</p>
+													<span class="mess__time">11:54</span>
+												</div>
+
+												<div class="your__mess message">
+													<p class="mess__text">Lorem ipsum dolor sit amet
+													</p>
+													<span class="mess__time">11:54</span>
+												</div>
+											</div>
+
+											<div class="text-field__wrap">
+												<input type="text" class="text-field" placeholder="Написать сообщение...">
+												<a class="send" href="#" >
+													<img class="send__img" src="img/send.svg" alt="send" >
+												</a>
+												<a class="cross" href="#">
+													<img class="cross__img" src="img/cross.svg" alt="cross" >
+												</a>
+											</div>
+										</div>
+									</div>
+
+
+								<div class="popup__hidden-wrap">	
+									<div class="popup" id="popup-block">
+										<img class="cross__popup"  src="img/popup-cross.svg" alt="cross-popup">
+										<div class="popup__inner">
+
+											<div class="popup__contacts">
+
+												<ul class="popup__list">
+													<li class="popup__list-item">
+														<p class="popup__list-descr">ФИО</p>
+														<p class="popup__list-text name"><span class="popup__list-name">Ольга Рыбкина</span></p>
+													</li>
+												</ul>
+												<ul class="popup__list">
+													<li class="popup__list-item">
+														<p class="popup__list-descr">Электронная почта</p>
+														<p class="popup__list-text mail">Olga@maiI.ru</p>
+													</li>
+													<li class="popup__list-item">
+														<p class="popup__list-descr">Номер телефона</p>
+														<p class="popup__list-text num">8-707-488-22-22</p>
+													</li>
+												</ul>
+												<ul class="popup__list">
+													<li class="popup__list-item">
+														<p class="popup__list-descr">Электронная почта</p>
+														<p class="popup__list-text mail">Olga@maiI.ru</p>
+													</li>
+													<li class="popup__list-item">
+														<p class="popup__list-descr">Номер телефона</p>
+														<p class="popup__list-text num">8-707-488-22-22</p>
+													</li>
+												</ul>
+
+											</div>
+
+											<div class="popup__img-wrap">
+												<div class="status__wrap">
+													<p class="popup__status">Статус заявки</p>
+
+													<div class="select__wrap">
+														
+															<button class="select__btn">
+																<img class="ellipse" src="img/ellipse-blue.svg"></img>
+																Резерв подтвержден
+															</button>
+														
+
+														<ul class="select__list ">
+
+															<li class="select__list-item" data-value="Резерв подтвержден"><img class="ellipse" src="img/ellipse-blue.svg"></img>Резерв подтвержден </li>
+
+															<li class="select__list-item" data-value="Резерв не подтвержден"><img class="ellipse" src="img/ellipse-oreng.svg"></img>Резерв не подтвержден</li>
+
+															<li class="select__list-item" data-value="Резерв не подтвержден"><img class="ellipse" src="img/ellipse-red.svg"></img>Заявка отменена</li>
+
+															<li class="select__list-item" data-value="Заявка выполнена"><img class="ellipse" src="img/ellipse-green.svg"></img>Заявка выполнена</li>
+														</ul>
+														<input type="text" name="status" data-value="" class="input__select-hidden">
+													</div>
+
+
+												</div>
+												
+												<div class="popup__img-inner">
+													<img class="popup__img" src="img/product-2.png" alt="product-2">
+												</div>
+
+											</div>
+
+											<div class="popup__info">
+												<div class="popup__info-item">
+													<h4 class="popup__info-titile">Пленка 202 AMGa</h4>
+													<p class="popup__info-size popup__info-text">Размер<span class="size border">20м</span></p>
+													<p class="popup__info-cht popup__info-text">ШТ<span class="cht border">2</span></p>
+												</div>
+												<div class="popup__info-item">
+													<h4 class="popup__articles-title">Артикул</h4>
+													<p class="popup__info-size popup__info-text">Размер<span class="size border">20м</span></p>
+													<p class="popup__info-cht popup__info-text">ШТ<span class="cht border">2</span></p>
+												</div>
+											</div>
+											<div class="popup__coment">
+												<textarea class="popup__coment-text" placeholder="Комментарий "></textarea>							
+											</div>
+											<button class="popup__coment-btn button">Ответить</button>
+										</div>
+									</div>
+								</div>
+
+
+
+							</div>
+						</div>
+					</div>
+
+
+				</div>
+			</div>
+		</main>
+	</div>
+	<script type="text/javascript" src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+	<script type="text/javascript" src="js/main.js"></script>
+	<script type="text/javascript" src="js/jquery.magnific-popup.min.js"></script>
+	
+</body>
+</html>
